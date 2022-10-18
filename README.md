@@ -1,4 +1,4 @@
-# forza-painter  
+# 极限竞速-画家  
 ![](/imgs/yeahboiiiiiiiis_dad.png)  
 ```
 Discord: A-Dawg#0001 (AE)  
