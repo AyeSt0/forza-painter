@@ -5,7 +5,7 @@ Discord: A-Dawg#0001 (AE)
 支持:极限竞速4和5  
 官方版本:MS Store/XBOX PC App(最新版本)，Steam(最新版本)。  
 非官方说法:没有运行在主机上或通过云游戏的所有版本都应该适用。  
-许可协议:麻省理工学院  
+许可协议:MIT  
 ```
 
 ### 想要用金钱支持这个工具?  向慈善机构捐款(https://www.charitywatch.org/top-rated-charities)
