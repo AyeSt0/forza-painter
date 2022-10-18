@@ -1,157 +1,115 @@
-# forza-painter
-![](/imgs/yeahboiiiiiiiis_dad.png)
+# forza-painter  
+![](/imgs/yeahboiiiiiiiis_dad.png)  
 ```
-Discord: A-Dawg#0001 (AE)
-Supports: Forza Horizon 4 and 5
-Offically: MS Store/XBOX PC App (latest versions), Steam (latest versions).
-Unofficially: Every version that isn't running on a console or via cloud gaming should work.
-License: MIT
+Discord: A-Dawg#0001 (AE)  
+支持:极限竞速4和5  
+官方版本:MS Store/XBOX PC App(最新版本)，Steam(最新版本)。  
+非官方说法:没有运行在主机上或通过云游戏的所有版本都应该适用。  
+许可协议:麻省理工学院  
 ```
 
-### Want to support the tool with money? Donate to charity instead (https://www.charitywatch.org/top-rated-charities)
-## Consider helping out the children caught up in the Ukraine conflict.
- - https://www.savethechildren.org/us/where-we-work/ukraine
- - https://norskukrainastotte.com/ (One of our members doing some awesome work)
- - https://ko-fi.com/norskukrainastotte (One of our members doing some awesome work)
+### 想要用金钱支持这个工具?  向慈善机构捐款(https://www.charitywatch.org/top-rated-charities)
+## 考虑帮助陷入乌克兰冲突的儿童。
+- https://www.savethechildren.org/us/where-we-work/ukraine
+- https://norskukrainastotte.com/(我们的一个成员做了一些了不起的工作)
+- https://ko-fi.com/norskukrainastotte(我们的一个成员做了一些了不起的工作)
 
-#### NEW
-- 🐞 Fixed Steam version 1.507.426.0 not detecting
+#### 新
+-🐞固定的蒸汽版本1.507.426.0检测不到
 
-#### RECENT
-- ✅ Fixed a bug where it was not finding vinyl groups sometimes
-- ✅ Automatic cropping in most images
-- ✅ Smarter shape generation (Slight speed/quality bump)
-- ✅ Redundancy check is now multi-threaded
-- 🐞 Fix bad handling of hard-to-fit shapes
-- 🐞 Fix redundant shapes pass not working
-- 🐞 Fix resume not working due to folder location
-- ✅ MAJOR SPEED IMPROVEMENTS (only possible with advance tweaking previously)
-- ✅ Better vinyl group detection and handling
-- ✅ Better versioning code
-- ✅ Divide mutations across threads
-- ✅ Bottleneck checks and automatic balancing
-- ✅ REWORKED ALL PROFILES (only use the new ones please)
-- ✅ Redundancy check bat script (to do a redundant check on completed `.json`s)
-- ✅ 1px border enforcement (No more adding a border yourself)
-- ✅ `.jsons` now save into a folder for neatness
-- 🐞 Max shape size scales with resolution (bug fix for images looking better at lower res)
-#### OLDER
-- ✅ More versions of the games supported
-- ✅ Many bug fixes
-- ✅ Redundant shape checks
-- ✅ Resume from json
-- ✅ Dump and import vinyl groups (hand made ones)
-
-## Please consider voicing your support for the tool.
+#### 最近
+- ✅ 修正了有时找不到乙烯基组的bug
+- ✅ 大多数图像的自动裁剪
+- ✅ 更聪明的形状生成(轻微的速度/质量冲击)
+- ✅ 冗余检查现在是多线程的
+- 🐞 修复不好的处理难以适应的形状
+- 🐞 修复多余形状pass不工作
+- 🐞 修复了由于文件夹位置导致的简历不工作
+- ✅ 主要的速度改进(只可能与之前的提前调整)
+- ✅ 更好的乙烯基检测和处理
+- ✅ 更好的版本代码
+- ✅ 跨线程划分突变
+- ✅ 瓶颈检查和自动平衡
+- ✅ 重做了所有的档案(只使用新的请)
+- ✅ 冗余检查bat脚本(对完成的' .json '进行冗余检查)
+- ✅ 1px边界执法(不再自己添加边界)
+- ✅ 为了整洁，'.jsons'现在保存到一个文件夹中
+- 🐞 最大形状尺寸随分辨率变化(修复了图像在低分辨率下看起来更好的bug)
+#### 旧
+- ✅ 支持更多版本的游戏
+- ✅ 许多bug修复
+- ✅ 多余的形状检查
+- ✅ 从json中恢复
+- ✅ 转储和导入乙烯基组(手工制作的)
+## 请考虑表达您对该工具的支持。
 ### https://twitter.com/forza_support/status/1488175307391602690
 
-# Info
-Please read #basic-tutorial and ask for help in #support on the discord
+# 信息
+请阅读#基本教程并在#支持中寻求帮助
 - https://discord.gg/cJhsyXRC57
 
-### Check out the #faq channel on the discord for awesome tips.
-**Ask for help on the Discord server first!**. If you **cannot get help** on the Discord server.
-- `A-Dawg#0001` - I'm currently v. busy with life so ask in the Discord first please.
+### 查看discord上的#faq频道，获取很棒的技巧。
+**请先在Discord服务器上寻求帮助!**如果您**无法在Discord服务器上获得帮助**。
+-“A-Dawg#0001”-我目前忙于生活，所以请先在Discord中询问。
 
-## Don't have Discord?
+## 没有Discord?
 https://www.youtube.com/watch?v=2Wum11-IhfM
-Still, please consider getting Discord and joining as we have a growing library of handmade vinyl groups being shared.
+尽管如此，请考虑获得Discord并加入我们，因为我们有一个不断增长的手工黑胶组共享库。
 
-### What is this for?:
-Any image → Forza (Vinyl Group)
 
-### Does this work for the Steam versions or the Microsoft Store versions?
-It supports both! And it should work for older and future releases too thanks to some magic under the hood.
+### 这是干什么用的?
+任意图像→Forza (Vinyl Group)
 
-### How does it work?:
-When you drag one or multiple images onto `forza-painter.exe`; It will break the image(s) down into shapes and store them in `.json` data files.
-Then you drag those `.json` data files onto `forza-painter.exe`; It deserializes this `.json` and uses some math, reverse engineering and the Windows API to push these shapes into FH5 automagically.
+### 这是否适用于Steam版本或Microsoft Store版本?
+它同时支持!它应该适用于更老的版本和未来的版本，这要感谢一些幕后的魔法。
 
-# READ EVERYTHING BELOW BEFORE ASKING FOR HELP
+### 它是如何工作的?
+当你拖动一个或多个图像到' forza-painter.exe ';
+它将把图像分解成各种形状并将它们存储在存储器中的
+.json数据文件。
+然后拖动这些.json数据文件到' forza-painter.exe ';
+它反序列化这个.json ，并使用一些数学、逆向工程和Windows API自动将这些形状推入FH5。
 
-## Requirements
-- Microsoft Visual C++ 2015 Redistributable (Download both x86 and x64):
-    - https://www.microsoft.com/en-us/download/details.aspx?id=53587
+# 在寻求帮助之前，阅读下面的所有内容
 
-# FAQ:
-- **Will this get me banned!?**
-```
-To preface this:
-I take no responsibility for your use of this software.
+## 要求
+- Microsoft Visual c++ 2015 Redistributable(下载x86和x64):
+- https://www.microsoft.com/en-us/download/details.aspx?id=53587
 
-You may be reported by players if you share the vinyls as they are extremely
-detailed. Some players feel that making vinyl groups in this way is unfair as
-they have had to suffer through learning the tool and were not able to use an
-easy starting point.
-
-This is a completely valid opinion, and with enough time, practice and talent
-you CAN recreate extremely complex images. I just don't share the opinion that
-you should have to.
-
-As for FH5 detecting this; It is not a "cheat", it is not giving any player
-an unfair advantage, it is not modifying game files or game code, and it is
-not taking advantage of any exploits.
-
-Interpret that as you feel. I believe this is a missing necessary feature
-from the vinyl group designer.
-```
-- **My version is older/newer or it isn't working following the steps!**
-```
-For unsupported versions, forza-painter will scan for a known pattern.
-If it fails to find this pattern, it will notify you.
-Most versions should work fine, but others may need tweaking.
-```
-- **Will you update this to support newer versions?**
-```
-It should automatically support newer versions.
-```
-- **I have an error that I don't understand...**
-```
-Check the requirements above.
-If you are still having problems, join the discord (top of readme) and ask for help in #support
-```
-- **Can you make a version that just uses inputs to create the shapes?**
-```
-I can, but I won't. I've open sourced this for a reason.
-Feel free to take it and make changes as you wish as permitted by the MIT license.
-Just throw me [A-Dawg#0001 (AE)] a little credit.
-```
-- **My issue is not listed**
-```
-Join the discord (at top of readme), check #basic-tutorial, #faq, and ask for help in #support
+#常见问题解答:
+- **这会让我被封号吗?**
 ```
 
-# Basic usage guide:
+这里是前言:
+我不为你使用这个软件负责。
 
-## Making your template Vinyl Groups (reuse these):
-- Open Forza Horizon 5 and create a new Vinyl Group.
-- Just make one sphere and duplicate it for as many layers as you need. Color, size, scale, etc. **DO NOT MATTER**.
-    - Tip (Optional): You can make (cut/insert) ~100 then select an existing shape, select highlight all, copy and insert these 100 over and over.
-    - Tip (Optional): Another trick is to save one vinyl group with 6 groups of 500 spheres. Simply load it and delete the ones you don't want (e.g. to reduce it down to 2000 shapes, delete 2 of them), then ungroup.
-- Save this as a template, as something identifiable, e.g. `forza-painter 3000 shapes`.
+如果你分享涂装，你可能会被玩家举报，因为它们非常精细。有些玩家觉得用这种方式制作贴图组合是不公平的，因为他们不得不忍受学习工具的痛苦，不能使用一个简单的起点。
 
-Note: When you load these templates the shapes will be **grouped**, make sure you select them and **UNGROUP** before using (If you miss one it will tell you).
+这是一个完全有效的观点，只要有足够的时间、练习和天赋，你就可以重建极其复杂的图像。我只是不同意你的观点。
 
-## Using `forza-painter` to generate your `.json` geometry:
-- Just drag one or multiple images onto `forza-painter.exe` and it will start
-- It will generate a `.json` file in a folder with the same name and in same folder as the image(s) you dragged in. (most profiles will also save one every 500 shapes separately)
-    - e.g. `C:\My Pics\happy.jpg` → `C:\My Pics\happy\happy.json`
-- You can close the window at any time when you are happy or if the shapes are complete.
-- If more than one image is dragged in, it will queue them, completing them one by one.
-- **Advanced Users:** Consider tweaking the profiles in the `settings` folder and share them with other users. See #faq on the Discord for more info.
+至于FH5检测这个;这不是一种“欺骗”，它没有给予任何玩家不公平的优势，它没有修改游戏文件或游戏代码，也没有利用任何漏洞。
 
-## Importing your generated `.json` geometry files:
-- Open Forza and load your template with the correct shape count
-- Ungroup it
-- Drag the `.json` file onto `forza-painter.exe`
+根据你的感受来解读。我相信这是一个从涂装设计师缺失的必要功能。
+```
+- **我的版本是旧的/更新的或它不能按照步骤工作!**
+```
+对于不支持的版本，forza-painter将扫描已知的模式。
+如果它没有找到这个模式，它将通知您。
+大多数版本应该运行良好，但其他版本可能需要调整。
+```
+- **你会更新这个以支持更新的版本吗?**
+```
+它应该自动支持更新的版本。
+```
+- **我有一个错误，我不明白…**
+```
+检查上面的要求。
 
-## Importing hand made vinyls (shared by the community)
-- Join the Discord
-- Download a cool vinyl json (hand made in most cases by our community)
-- Follow the steps above for importing like normal!
-- Thank the awesome people in the Discord making these and sharing them!
-    - Make your own and dump them with `_dump_vinyl_group_by_running_this.bat` ;)
-
-# Acknowledgements
-- geometrize-lib - Sam Twidale (https://samcodes.co.uk/)
-- Primitive library - Michael Fogleman (https://github.com/fogleman/primitive)
+如果您仍然有问题，请加入discord(自述文件的顶部)并在#support中寻求帮助
+```
+- **你能制作一个只使用输入创建形状的版本吗?**
+```
+我可以，但我不会。
+我公开这个是有原因的。
+请随意使用它，并根据MIT许可证的允许进行更改。
+把我扔过去 [A-D
